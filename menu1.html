@@ -1,0 +1,64 @@
+<html>
+	<head>
+		<title>Menu Bar</title>
+		<style>
+			body {
+					margin: 0px;
+					padding: 0px;
+				}
+		.header {
+					display: flex;
+					background: aqua;
+					align-items: center;
+				}
+		.logo {
+					background: blue;
+					width: 30%;
+					text-align: center;
+					font-size: 25px;
+					letter-spacing: 10px;
+					color: white;
+					text-transform: uppercase;
+				}
+		.menubar {
+					width: 70%;
+				}
+		.menubar ul {
+						display: flex;
+						justify-content: space-between;
+					}
+		.menubar ul li {
+						list-style: none;
+					}
+		.menubar ul li a {
+						text-decoration: none;
+						font-size: 25px;
+						text-transform: capitalize;
+						font-weight: 600;
+						font-family: none;
+						border:2px solid red;
+						border-radius: 6px;
+					}
+			.menubar ul li a:hover {
+							color: red;
+							border-bottom: 2px solid blue;
+						}
+						
+		</style>
+	</head>
+	<body>
+		<div class="header">
+			<div class="logo">
+					<h2>LOGO</h2>
+			</div>
+			<div class="menubar">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About Us</a></li>
+					<li><a href="#">Service</a></li>
+					<li><a href="#">Contact Us</a></li>
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
